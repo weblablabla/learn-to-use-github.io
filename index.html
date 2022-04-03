@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yozica</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/MusicPlayer.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <script src="./js/index.js"></script>
+</head>
+
+<body>
+    <!-- 通栏 -->
+    <div class="banner">
+        <h1>这里记录着我的前端梦</h1>
+        <p>高木同学赛高！！！</p>
+    </div>
+    <!-- 通栏 -->
+
+    <!-- 头部 -->
+    <div class="head wrapper">
+        <div class="myPortrait">
+            <a href="https://space.bilibili.com" target="_blank">
+                <img src="./img/shushu.jpg" alt="然然的鼠鼠">
+                <p class="name">yozica</p>
+            </a>
+        </div>
+        <div class="myItem">
+            <ul>
+                <li class="xuanzhong"><a href="javascript:;">首页</a></li>
+                <li><a href="javascript:;">动漫</a></li>
+                <li><a href="javascript:;">音乐</a></li>
+                <li><a href="javascript:;">喜好</a></li>
+                <li><a href="javascript:;">成果展示</a></li>
+                <li>
+                    <a target="_blank" href="../一个bug奇多导致我再也不想改了的井字棋/jing.html">井字棋</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 头部 -->
+
+    <!-- 主体 -->
+    <div class="body wrapper">
+        <!-- 选择动漫 -->
+        <div class="side">
+            <ul class="top">
+                <li><a href="https://space.bilibili.com/401805793/bangumi" target="_blank">我的追番</a></li>
+                <li><a href="https://bangumi.moe/" target="_blank">萌番组</a></li>
+                <li><a href="https://bangumi.online/" target="_blank">萌番组online</a></li>
+                <li><a href="https://www.yhdmp.cc/" target="_blank">樱花动漫</a></li>
+            </ul>
+            <ul class="bottom">
+                <li>擅长捉弄的高木同学</li>
+                <li>更衣人偶坠入爱河</li>
+                <li>明日同学的水手服</li>
+            </ul>
+        </div>
+        <!-- 选择动漫 -->
+        <div class="content">
+            <!-- 首页 -->
+            <div class="index">
+                <div class="tools">
+                    <ul>
+                        <li><a href="https://www.aconvert.com/cn/archive/" target="_blank">音视频转码工具1</a></li>
+                        <li><a href="https://convertio.co/zh/audio-converter/" target="_blank">音视频转码工具2</a></li>
+                        <li><a href="http://172.29.35.25:9999/portalReceiveAction.do?wlanuserip=10.36.112.62&wlanacname=huawei"
+                                target="_blank">校园网</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 首页 -->
+
+            <!-- 动漫 -->
+            <div class="gaomu">
+                <div class="video">
+                    <video src="../../动漫/擅长捉弄的高木同学/第三季/第1集.mp4" controls autoplay></video>
+                </div>
+                <div class="select">
+                    <ul class="bu">
+                        <li class="current">第一季</li>
+                        <li>第二季</li>
+                        <li>第三季</li>
+                    </ul>
+                    <ul class="ji">
+                        <li class="current">第1集</li>
+                        <li>第2集</li>
+                        <li>第3集</li>
+                        <li>第4集</li>
+                        <li>第5集</li>
+                        <li>第6集</li>
+                        <li>第7集</li>
+                        <li>第8集</li>
+                        <li>第9集</li>
+                        <li>第10集</li>
+                        <li>第11集</li>
+                        <li>第12集</li>
+                        <li>OVA</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 动漫 -->
+
+            <!-- 音乐 -->
+            <div class="music">
+                <div class="thank">
+                    <a href="https://blog.csdn.net/u014584271/article/details/106017134"
+                        target="_blank">歌词滚动效果来自CSDN教程</a>
+                </div>
+                <div class="container">
+                    <div class="btn">
+                        <button onclick="turn -= 0.1">-0.1s</button>
+                        <button onclick="turn += 0.1">+0.1s</button>
+                    </div>
+                    <div class="lrc">
+                        <ul id="ullrc">
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="audio"><audio src="#" controls autoplay id="MusicPlayer"></audio></div>
+                <script src="./js/MusicPlayer.js"></script>
+            </div>
+            <!-- 音乐 -->
+
+            <!-- 喜好 -->
+            <div class="hobby">
+                <div class="video">
+                    <video src="./video/未命名/YOU&IDOL-嘉然.mp4" controls autoplay></video>
+                </div>
+                <div class="select">
+                    <ul class="bu">
+                        <li class="current">未命名</li>
+                    </ul>
+                    <ul class="ji">
+                        <li class="current">YOU&IDOL-嘉然</li>
+                        <li>除夕-A-Soul</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 喜好 -->
+
+            <!-- 成果展示 -->
+            <!-- 成果展示 -->
+        </div>
+        <!-- 选择音乐 -->
+        <div class="right">
+            <ul class="top">
+                <li><a href="https://y.qq.com/n/ryqq/profile/like/song" target="_blank">我的音乐</a></li>
+                <li><a href="https://song.postudy.cn/#/music/search" target="_blank">mumuplay</a></li>
+                <li><a href="http://tools.liumingye.cn/music/?page=searchPage" target="_blank">MyFreeMP3</a></li>
+            </ul>
+            <ul class="bottom">
+                <li title="Colors-Stella Jang (스텔라 장)">Colors-Stella Jang (스텔라 장)</li>
+                <li title="爱丫爱丫-BY2">爱丫爱丫-BY2</li>
+                <li title="空山新雨后-音阙诗听">空山新雨后-音阙诗听</li>
+                <li title="99%-Jin_大柯">99%-Jin_大柯</li>
+                <li title="花海-周杰伦">花海-周杰伦</li>
+                <li title="晴天-周杰伦">晴天-周杰伦</li>
+                <li title="说好不哭-周杰伦">说好不哭-周杰伦</li>
+                <li title="等你下课-周杰伦">等你下课-周杰伦</li>
+                <li title="稻香-周杰伦">稻香-周杰伦</li>
+                <li title="爱的飞行日记-周杰伦">爱的飞行日记-周杰伦</li>
+                <li title="甜甜的-周杰伦">甜甜的-周杰伦</li>
+                <li title="七里香-周杰伦">七里香-周杰伦</li>
+                <li title="你听得到-周杰伦">你听得到-周杰伦</li>
+                <li title="最美的太阳-张杰">最美的太阳-张杰</li>
+                <li title="天下-张杰">天下-张杰</li>
+                <li title="再见-邓紫棋">再见-邓紫棋</li>
+                <li title="倒数-邓紫棋">倒数-邓紫棋</li>
+                <li title="A.I.N.Y.-邓紫棋">A.I.N.Y.-邓紫棋</li>
+            </ul>
+        </div>
+        <!-- 选择音乐 -->
+    </div>
+    <!-- 主体 -->
+
+    <!-- 底部 -->
+    <div class="foot"></div>
+    <!-- 底部 -->
+</body>
+
+</html>
